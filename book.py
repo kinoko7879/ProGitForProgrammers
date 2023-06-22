@@ -3,3 +3,5 @@ class Book:
         self.price = 0
         self.ISBN = []
         
+    def setPrice(self, price):
+        self.price = price
