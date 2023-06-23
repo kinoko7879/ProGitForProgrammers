@@ -6,5 +6,5 @@ class Book:
     def setPrice(self, price):
         self.price = price
 
-    def setPrice(self):
+    def set_from_book_branch_Price(self):
         return self.price
