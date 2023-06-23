@@ -5,3 +5,6 @@ class Book:
         
     def setPrice(self, price):
         self.price = price
+
+    def setPrice(self):
+        return self.price
